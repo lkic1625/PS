@@ -5,3 +5,4 @@ pub mod max_path_sum;
 pub mod merge_k_lists;
 pub mod smallest_sufficient_team;
 pub mod top_k_frequent;
+pub mod two_sum;

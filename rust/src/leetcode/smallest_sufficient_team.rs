@@ -1,5 +1,7 @@
 use std::collections::HashMap;
 
+struct Solution;
+
 impl Solution {
     pub fn smallest_sufficient_team(req_skills: Vec<String>, people: Vec<Vec<String>>) -> Vec<i32> {
         // init
