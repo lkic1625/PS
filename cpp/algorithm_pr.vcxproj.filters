@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\algospot">
+      <UniqueIdentifier>{4afb5487-6f61-4b77-b590-a143f83437bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BAEKJOON">
+      <UniqueIdentifier>{89524cf5-3c4b-450a-a90d-b2ce74ef6400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\codeforces">
+      <UniqueIdentifier>{a3142aef-8c85-4efa-90ff-550526deeace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\swexpert">
+      <UniqueIdentifier>{cff4217f-543e-447d-b59b-1a32c51a2b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\scpc">
+      <UniqueIdentifier>{4cbde677-dfba-457b-bdbb-0d25bc40a3ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PIcpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="미생물격리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="감시.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="L자 타일 채우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="시험감독.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TAXI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Woodcutters.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="maze.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="구슬 탈출 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="콩순이의 가장 싼 팰린드롬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Maaaaaaaaaze.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="줄 세우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="여행가자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="집합으 표현.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="후임 간식 뻇어먹기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="일감호에 다리 놓기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LRU.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="카드놓기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열압축.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="76.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Valid BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="게임판덮기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호문자열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="레드 블루 스패닝 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반나누기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="복사꽃마을준성댁.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="부스터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="여행 가자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="집합의 표현.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="팰린드롬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="flow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bipartitematching.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="007.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="20C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="25D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="61D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="76A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="103B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="189A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="219D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="230B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="276C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="327A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="337D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="339B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="356A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="429A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="437C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="448C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="455A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="476B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="500A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="545E.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="580C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="605B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="698A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="706C.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="734B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="768B.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="768Bv2.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="788A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="1037D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="1155D.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="1336A.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="2987.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="6057.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="6191.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="6782.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="7466.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="7700.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="7730.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="algospot.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1062.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1671.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1741.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1890.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1939.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2458.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK4485.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK7569.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK7576.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK10610.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK10942.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK10999.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK11438.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK13913.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14891.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEKJ1753.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="ASYMTILING.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="BOGGLE.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="BRACKETS2.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="CHRISTMAS.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="CLOCKSYN.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="Colored Boots.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAGON.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAGON2.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="FENCE.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="GRADUATION.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="FESTIVAL.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="HANNIBAL.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="JOSEPHUS.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="JLIScpp.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="KLIS.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="LIS.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="LUNCHBOX.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="MATCHFIX.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="MORSE.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="NH.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="NTHLON.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="NUMBERGAME.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="OCR.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="PACKING.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="PICNIC.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="POLO.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="QUADTREE.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="QUANTIZE.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="SOLONG.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="STRJOIN.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="WATER.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="WILDCARD.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="Game 23.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="honey.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
+    <ClCompile Include="Equivalent Strings.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="lazy.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="Maximal Continuous Rest.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="n-queen.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="Polycarp Restores Permutation.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="Superhero Battle.cpp">
+      <Filter>소스 파일\codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="개구리 뛰기.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="scpc1.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="scpc2.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="scpc3.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="방속의 거울.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="BISHOPS.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="TRAPCARD.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK4949.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1967.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK12865.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2256.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="nhn01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nhn02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nhn03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK15972.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14719.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK15955.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1289.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="개미수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="펠린드롬만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="폭탄.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK16468.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK15956.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK15957.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK7574.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK3392.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK10165.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK4811.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1210.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2336.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2887.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK17073.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2419.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2927.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK17429.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK15955_UF.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="동아리 홍보하기.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK20055.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK4149.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK5615.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK13460.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1184.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK20161.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2174.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK3977.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1328.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1826.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14939.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1437.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14578.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK9997.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK17421.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="menu renewal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="습격자 초라기.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK3865.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK5466.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2842.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK1014.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="풍선 터트리기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14890.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK14238.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK17611.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK13334.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIMBABWE.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BAEK2164.cpp">
+      <Filter>소스 파일\BAEKJOON</Filter>
+    </ClCompile>
+    <ClCompile Include="BOARDCOVER2.cpp">
+      <Filter>소스 파일\algospot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
