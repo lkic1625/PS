@@ -8,26 +8,47 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SRC_DIR="$SCRIPT_DIR/../src"
 
-NAME="$1"
+# Parse arguments: either --num <number> or <snake_name>
+if [ "$1" = "--num" ]; then
+    NUM="$2"
+    if [ -z "$NUM" ]; then
+        echo "Usage: $0 --num <number>"
+        echo "Example: $0 --num 210"
+        exit 1
+    fi
+    BIN_FILE=$(ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_${NUM}_.*\.rs$" | head -1)
+    if [ -z "$BIN_FILE" ]; then
+        echo "Error: No file matching 'leet_${NUM}_*.rs' found in src/bin/"
+        echo ""
+        echo "Available problems:"
+        ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_" | sed 's/^leet_/  /' | sed 's/\.rs$//'
+        exit 1
+    fi
+    NAME=$(echo "$BIN_FILE" | sed "s/^leet_${NUM}_//" | sed 's/\.rs$//')
+else
+    NAME="$1"
 
-if [ -z "$NAME" ]; then
-    echo "Usage: $0 <snake_name>"
-    echo "Example: $0 two_sum"
-    echo ""
-    echo "Available problems in bin/:"
-    ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_" | sed 's/^leet_[0-9]*_/  /' | sed 's/\.rs$//'
-    exit 1
-fi
+    if [ -z "$NAME" ]; then
+        echo "Usage: $0 <snake_name>"
+        echo "       $0 --num <number>"
+        echo "Example: $0 two_sum"
+        echo "         $0 --num 1"
+        echo ""
+        echo "Available problems in bin/:"
+        ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_" | sed 's/^leet_[0-9]*_/  /' | sed 's/\.rs$//'
+        exit 1
+    fi
 
-# Find the bin file matching the name
-BIN_FILE=$(ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_.*_${NAME}\.rs$" | head -1)
+    # Find the bin file matching the name
+    BIN_FILE=$(ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_.*_${NAME}\.rs$" | head -1)
 
-if [ -z "$BIN_FILE" ]; then
-    echo "Error: No file matching 'leet_*_${NAME}.rs' found in src/bin/"
-    echo ""
-    echo "Available problems:"
-    ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_" | sed 's/^leet_[0-9]*_/  /' | sed 's/\.rs$//'
-    exit 1
+    if [ -z "$BIN_FILE" ]; then
+        echo "Error: No file matching 'leet_*_${NAME}.rs' found in src/bin/"
+        echo ""
+        echo "Available problems:"
+        ls "$SRC_DIR/bin/" 2>/dev/null | grep "^leet_" | sed 's/^leet_[0-9]*_/  /' | sed 's/\.rs$//'
+        exit 1
+    fi
 fi
 
 BIN_PATH="$SRC_DIR/bin/$BIN_FILE"

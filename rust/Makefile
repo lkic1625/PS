@@ -89,10 +89,14 @@ endif
 # Mark problem as done (move from bin/ to leetcode/)
 .PHONY: done
 done:
-ifndef NAME
-	$(error NAME is required. Usage: make done NAME=two_sum)
+ifeq ($(and $(if $(NUM),,1),$(if $(NAME),,1)),1)
+	$(error NAME or NUM is required. Usage: make done NAME=two_sum  OR  make done NUM=210)
 endif
+ifdef NUM
+	@./scripts/done.sh --num "$(NUM)"
+else
 	@./scripts/done.sh "$(NAME)"
+endif
 
 # List work-in-progress problems
 .PHONY: wip
@@ -117,6 +121,7 @@ help:
 	@echo ""
 	@echo "  3. Mark as done (moves to src/leetcode/, fetches tags from API):"
 	@echo "     make done NAME=two_sum"
+	@echo "     make done NUM=210"
 	@echo ""
 	@echo "  List WIP problems: make wip"
 	@echo ""
